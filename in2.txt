@@ -1,0 +1,4 @@
+the normal form of a floating point number
+1.528535047E-25
+Long
+1234567890123456789

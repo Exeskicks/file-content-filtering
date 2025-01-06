@@ -1,0 +1,6 @@
+Lorem ipsum dolor sit amet
+Пример
+consectetur adipiscing
+тестовое задание
+the normal form of a floating point number
+Long
