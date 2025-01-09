@@ -26,11 +26,11 @@ public class JVMArguments {
     /** Флаг для короткой полной файла */
     private static final String fullStatistic = "-f";
 
-    // Мапа для хранения обработчиков аргументов
+    /** Мапа для хранения обработчиков аргументов */
     private final Map<String, Consumer<String>> argumentHandlers = new HashMap<>();
-    // Объект Builder для создания экземпляра {@link ArgumentsModel}.
+    /**  Объект Builder для создания экземпляра {@link ArgumentsModel}. */
     private final ArgumentsModel.Builder argumentsBuilder = new ArgumentsModel.Builder();
-    // Список путей к файлам, переданных в качестве аргументов командной строки
+    /** Список путей к файлам, переданных в качестве аргументов командной строки */
     private final List<String> inputFiles = new ArrayList<>();
 
     private final String[] args;
