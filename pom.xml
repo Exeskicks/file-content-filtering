@@ -17,6 +17,7 @@
 
     <build>
         <plugins>
+            <!-- Для сборки -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -26,10 +27,16 @@
                         <index>true</index>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>danil.yudin.Main</mainClass>
+                            <mainClass>danil.yudin.ApplicationConsole</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
+            </plugin>
+            <!-- Javadoc -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.11.2</version>
             </plugin>
         </plugins>
     </build>

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArgumentsModel {
+
     private boolean appendMode;
     private String prefix;
     private String outputPath;
