@@ -21,7 +21,6 @@ public class ReadFile {
      */
     private static Logger log = Logger.getLogger(ReadFile.class.getName());
 
-
     /**
      * Список для строк
      */

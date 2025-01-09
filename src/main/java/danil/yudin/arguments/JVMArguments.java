@@ -15,11 +15,15 @@ public class JVMArguments {
 
     private static final Logger log = Logger.getLogger(JVMArguments.class.getName());
 
-    // Константы для флагов
+    /** Флаг для дополнения файлы */
     private static final String appendMode = "-a";
+    /** Флаг для префикса */
     private static final String prefix = "-p";
+    /** Флаг для вывода файла */
     private static final String outputPath = "-o";
+    /** Флаг для короткой статистики файла */
     private static final String shortStatistic = "-s";
+    /** Флаг для короткой полной файла */
     private static final String fullStatistic = "-f";
 
     // Мапа для хранения обработчиков аргументов
